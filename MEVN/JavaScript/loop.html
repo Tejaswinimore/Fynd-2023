@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            const cars=["a","b","c"];
+            cars.sort();
+            let text="";//sample variable:local
+            for(let i=0;i<cars.length;i++){
+                text+=cars[i]+"<br>";//br for space between lines and object
+            }
+            
+            document.getElementById("demo").innerHTML=text;
+        </script>
+    </body>
+</html>
