@@ -1,5 +1,7 @@
 module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
+  extends: 'eslint-config-antife',
+  plugins: [
+    "babel",
+    "html",
   ]
 }

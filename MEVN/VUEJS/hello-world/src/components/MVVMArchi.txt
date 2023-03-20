@@ -1,0 +1,17 @@
+MVVM architectur:
+MVVM stands for Model View View-Model.
+ MVVM is an architectural pattern that separates the graphical UI from the logic of the app.
+
+# ViewModel
+An object that syncs the Model and the View. In Vue.js, every Vue instance is a ViewModel. 
+They are instantiated with the Vue constructor or its sub-classes
+
+# View
+The actual DOM that is managed by Vue instances.
+Vue.js uses DOM-based templating. Each Vue instance is associated with a corresponding DOM element.
+Responsible for displaying data.
+
+#View Model
+In Vue.js, models are simply plain JavaScript objects, or data objects.
+ Once an object is used as data inside a Vue instance, it becomes reactive. You can manipulate 
+their properties and Vue instances that are observing them will be notified of the changes. 
